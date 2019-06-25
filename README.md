@@ -1,5 +1,6 @@
 # test
 组件化开发
-2019年6月25日遇到的一个问题主module依赖不了组件化模块中common公共模块，进过一天的排查，最后才发现gradle中api project（）跟implementation project()的区别，
-implementation可以让module在编译时隐藏自己使用的依赖，但是在运行时这个依赖对所有模块是可见的。而api与compile一样，无法隐藏自己使用的依赖。
-所以主module依赖不了公共module
+复习组件化开发+kotlin+retrofit+rxjava+mvp+mvvm
+遇到的问题记录：
+https://www.jianshu.com/p/ca29f3536fcc
+https://www.jianshu.com/p/3febf68878dc
